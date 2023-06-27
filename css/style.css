@@ -111,6 +111,21 @@ header {
     color: white;
 }
 
+
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.social_net {
+    width: 30px;
+    padding-left: 15px;
+}
+
+
 /* ADAPTIVE */
 
 @media only screen and (max-width: 1200px) {
