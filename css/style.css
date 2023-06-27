@@ -101,6 +101,7 @@ header {
     justify-content: space-between;
     margin: 0 15% 0 15%;
     padding: 30px 0 30px 0;
+    align-items: center;
 }
 
 .info a {
@@ -111,14 +112,21 @@ header {
     color: white;
 }
 
-
-.number {
+.ways_to_contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+.number {
+    display: flex;
+    flex-direction: column;
+}
+
+.number a {
+    padding: 5px;
+}
 
 .social_net {
     width: 30px;
