@@ -1,0 +1,36 @@
+.last_news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.news {
+    max-width: 25%;
+    padding: 10px;
+}
+
+.news div {
+    padding: 20px 0 20px 0;
+}
+
+.news a {
+    text-decoration: none;
+    color: black;
+}
+
+.news:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.more:hover {
+    color: white;
+}
+
+.header_news {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight:bold;
+}
