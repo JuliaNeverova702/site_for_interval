@@ -1,5 +1,5 @@
 .container_f {
-    background-color: rgb(204, 204, 204);
+    background-color: #cccccc;
     margin-top: 60px;
 }
 
@@ -36,7 +36,7 @@
     padding: 5px;
 }
 
-.social_net {
+.social_net_icon {
     width: 30px;
     padding-left: 15px;
 }
