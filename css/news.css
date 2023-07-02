@@ -10,7 +10,7 @@
     padding: 10px;
 }
 
-.news div {
+.text {
     padding: 20px 0 20px 0;
 }
 
@@ -30,7 +30,7 @@
 .header_news {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    font-size: 25px;
+    padding-top: 60px;
+    font-size: 23px;
     font-weight:bold;
 }
