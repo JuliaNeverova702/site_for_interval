@@ -5,47 +5,75 @@
     <title>Interval</title>
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/adaptive.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
     <div class="container">
 
         <!-- HEADER -->
-        <header>
-            <div class="all_header">
-                <!-- LOGO -->
-                <div class="logo">
-                    <a href="start_page.html">
-                        <img src="../img/logo.png" alt="logo" class="graphiclogo">
-                    </a>
-                </div>
+        <header class="header">
 
-                <!-- MENU -->
-                <div class="menu">
-                    <ul>
+            <div class="header_logo">
+                <a href="start_page.html">
+                    <img src="../img/logo.png" alt="logo" class="graphiclogo">
+                </a>
+            </div>
+
+            <div href="#" class="header_burger">
+                <span></span>
+            </div>
+            
+            <div class="header_menu">
+                    <ul class="header_list">
                         <li><a href="production.html">Продукция</a></li>
                         <li><a href="our_projects.html">Наши проекты</a></li>
                         <li><a href="about_us.html">О нас</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
-                </div>
             </div>
         </header>
+
+        <div class="main"></div>
+        
     </div>
 
     <!-- FOOTER -->
-    <!-- <footer>
+    <footer>
         <div class="container_f">
             <div class="info">
-                <div>630049 г.Новосибирск, ул.Галущака, д.11, помещение XI</div>
-                <div>Info@interval.su</div>
-                <div><a href="tel:+73833752557">+7(383)-375-25-57</a></div>
+                <div class="adress">
+                    <a href="https://yandex.ru/maps/?pt=82.900735,55.050948&z=19&l=map">
+                        630049, г. Новосибирск, ул. Галущака, д. 11, помещение XI
+                    </a> 
+                </div>
+                <div>
+                    <a href="mailto:Info@interval.su">Info@interval.su</a>
+                </div>
+                <div class="ways_to_contact">
+                    <div class="number">
+                        <a href="tel:+73833752557">+7(383)-375-25-57</a>
+                        <a href="tel:+79237755557">+7(923)-775-55-57</a>
+                    </div>
+                    <div class="social_net">
+                        <a title="Chat on Telegram" href="https://telegram.me/interval_office">
+                            <img alt="Telegram" src="../img/telegram.png" class="social_net_icon">
+                        </a>
+                        <a title="Chat on WhatsApp" href="https://wa.me/+79237755557">
+                            <img alt="WhatsApp" src="../img/whatsapp.png" class="social_net_icon">
+                        </a>
+                        </div>
+                </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
-    <!-- <script scr="js/script.js"></script> -->
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/menu.js"></script>
     
 </body>
 </html>
